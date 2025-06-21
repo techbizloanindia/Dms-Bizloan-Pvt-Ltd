@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "ts-node": {
+    "esm": false,
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  }
+}
